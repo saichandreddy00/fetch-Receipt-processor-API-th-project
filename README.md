@@ -15,3 +15,24 @@ This is a Go-based web service that processes receipts and calculates points bas
 - Additional points for item descriptions with lengths divisible by 3.
 - 6 points if the purchase day is odd.
 - 10 points if the purchase time is between 2:00 PM and 4:00 PM.
+
+  
+## How to Run
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/saichandreddy00/fetch-Receipt-processor-API-th-project.git
+   cd receipt-processor
+2. **Run the application:**
+- go run main.go
+
+3.**The API will be available at** 
+- http://localhost:8080.
+
+**API Endpoints:**
+- POST /receipts/process: Submit a receipt.
+- GET /receipts/{id}/points: Retrieve points for a receipt.
+
+
+
+
+
